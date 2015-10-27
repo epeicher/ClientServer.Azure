@@ -13,7 +13,7 @@ A template for deploying a WebSharper client-server application to Azure from so
  
 # How does it work?
 
- 0. When you push to your repo, `deploy.cmd` will execute.
+ 0. When you push to your repo, `build.cmd` will execute.
  1. This will curl [paket](http://fsprojects.github.io/Paket/index.html) and restore the necessary packages (`WebSharper` and `FSharp.Compiler.Tools`)
  2. It will compile your app using `msbuild`.
  3. And it will copy it to the web root/deployment folder.
