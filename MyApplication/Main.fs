@@ -78,7 +78,7 @@ module Site =
         let Home =
             Skin.WithTemplate Action.Home "Home" <| fun ctx ->
                 [
-                    H1 [Text "Say Hi to FSharpers"]
+                    H1 [Text "Say Hi to DotnetMalaga"]
                     Div [ClientSide <@ Client.Main() @>]
                 ]
 
